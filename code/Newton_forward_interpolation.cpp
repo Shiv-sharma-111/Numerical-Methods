@@ -20,13 +20,12 @@ int fact(int n)
         f *= i; 
     return f; 
 } 
-  
+ //We are not take the value from user but you can modify according to your requirement 
 int main() 
 { 
     // Number of values given 
     int n = 4; 
     float x[] = { 45, 50, 55, 60 }; 
-      
     // y[][] is used for difference table 
     // with y[][0] used for input 
     float y[n][n]; 
